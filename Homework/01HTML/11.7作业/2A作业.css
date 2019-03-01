@@ -1,0 +1,37 @@
+/*公共样式处理*/
+* {
+	margin: 0;
+	padding: 0;
+}
+/*菜单样式处理*/
+
+.mean {
+	width: 965px;
+	height: 126px;
+    background: url(2A作业素材/bg.jpg) no-repeat center ;
+	margin: 0 auto;
+}
+ul {
+	width: 790px;
+	font-size: 12px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 8px;
+}
+li {
+	float: left;
+    width: 36px;
+    padding: 0 0 4px 0;
+    text-align: center;
+    list-style: none;
+}
+li:nth-child(3n + 1) {
+	font-weight: bold;
+}
+.mid {
+	border-left: 1px dashed #d5d5d5;
+	border-right: 1px dashed #d5d5d5;
+}
+li:nth-child(20) {
+	color: red;
+}

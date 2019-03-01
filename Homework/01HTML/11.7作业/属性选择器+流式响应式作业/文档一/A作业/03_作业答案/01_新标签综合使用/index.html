@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!-- 强制IE浏览器采用最新的edge引擎解析，chrome采用最新版本 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!-- 双模式浏览器优先使用 webkit -->
+		<meta name="renderer" content="webkit">
+		<!-- 移动端视窗设置 -->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/> -->
+		<!-- title 标题 -->
+		<title>新标签综合使用</title>
+		<!-- 描述 -->
+		<meta name="description" content="你的描述内容，一段完整的描述，150字以内">
+		<!-- 关键字 -->
+		<meta name="keywords" content="多个关键词用英文,号分割">
+		<!-- 外联样式表 -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<!--头-->
+		<header class="comContent">
+			<!--旗头灰色背景-->
+			<section class="headtop"></section>
+			<!--承载logo的section-->
+			<section class="headmain clearfix">
+				<!--左边的logo-->
+				<a href="###" class="fl">
+					<img src="img/logo.gif" />
+				</a>
+				<!--右边的logo-->
+				<span class="fr">
+					<a href="#">
+						<img src="img/headrimg.gif" />
+					</a>
+				</span>
+			</section>
+		</header>
+		<!--banner-->
+		<section class="comContent banner">
+			<a href="#">
+				<img src="img/banner.jpeg" />
+			</a>
+		</section>
+		<!--正文-->
+		<section class="comContent hmain">
+			<!-- right start-->
+			<article class="hm_right fr">
+				<!--标题部分-->
+				<h2>
+					<!--HOT 字母单独处理-->
+					<span class="ff_Arial">HOT</span>博文&nbsp;&nbsp;<a href="product_list.html" style="font-size:12px; font-weight:100; color:#FFF">查看更多>></a>
+				</h2>
+				<!--标题下方图片——“礼物，是最幸福的预言”-->
+				<section class="hm_rban">
+					<a href="###">
+						<img src="img/hm_rban.jpeg" border="0" />
+					</a>
+				</section>
+				<!--四种小吃部分-->
+				<section class="hm_rlist clearfix">
+					<ul>
+						<li>
+							<!--实际操作中，点击图片应该跳转界面，因此借助 a 标签包裹 img 标签-->
+							<a href="###">
+								<img src="img/hxzz.jpeg" width="66" height="66" border="0" class="hm_imgb" />
+							</a>
+							<!--说明性的文字，分了两段，使用两个 p 标签-->
+							<p>好伦哥转型海鲜自助，赌一场华丽转型 ！
+							<p><span class="hm_rred">带你去最HOT的地方！</span></p>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/xlxiaguo.jpeg" width="66" height="66" border="0" class="hm_imgb" />
+							</a>
+							<p>这是一个瞎吃的时代，也是一个吃虾的时代</p>
+							<p><span class="hm_rred">带你去最HOT的地方！</span></p>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/beizidangao3.jpeg" width="66" height="66" border="0" class="hm_imgb" />
+							</a>
+							<p>开门纳福·美美的甜品总是被称为“治愈系的食物” </p>
+							<p><span class="hm_rred">带你去最HOT的地方！</span></p>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/lizidangao.jpeg" width="66" height="66" border="0" class="hm_imgb" />
+							</a>
+							<p> 朴素饱满的栗子甜品，浓滑甜蜜余味纯香，更是难以舍弃的味道！
+								<p><span class="hm_rred">带你去最HOT的地方！</span></p>
+						</li>
+					</ul>
+				</section>
+				<!--右侧下方的店铺信息等-->
+				<section class="hm_rtuli clearfix">
+					<a href="#"><img src="img/hm_rtu01.gif" class="fl" /></a>
+					<a href="#"><img src="img/hm_rtu02.gif" class="fr" /></a>
+					<a href="#"><img src="img/hm_rtu03.gif" class="fl" /></a>
+					<a href="#"><img src="img/hm_rtu04.gif" class="fr" /></a>
+					<a href="#"><img src="img/hm_rtu05.gif" class="fl" /></a>
+					<a href="#"><img src="img/hm_rtu06.gif" class="fr" /></a>
+					<a href="#"><img src="img/hm_rtu07.gif" class="fl" /></a>
+					<a href="#"><img src="img/hm_rtu08.gif" class="fr" /></a>
+				</section>
+			</article>
+			<!-- right end-->
+			
+			<!-- left start-->
+			<aside class="hm_left fl">
+				<!--第一部分，视频，这里使用 img 替代-->
+				<section>
+					<img src="img/video.png" alt="">
+				</section>
+				<!--
+					第二部分，“查看更多”部分
+					注意，该部分的背景是一个渐变图片，圆角配合了下边的一个 hm_lvlibot 的 section 来处理圆角
+				-->
+				<section class="hm_lvcon">
+					<!--查看更多文本部分-->
+					<div class="hm_lvcmore">
+						<a href="###" class="ff_song">查看更多</a>
+					</div>
+					<!--四个酒店列表-->
+					<ul class="clearfix">
+						<li>
+							<a href="###">
+								<img src="img/20160115_2.jpeg" width="66" height="66" border="0" class="hm_lvimgb" />
+							</a>
+							<p style="padding-top:25px;">王府井希尔顿酒店</p>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/20160112_2.jpeg" width="66" height="66" border="0" class="hm_lvimgb" />
+							</a>
+							<p style="padding-top:25px;">励骏酒店</p>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/20160111_2.jpeg" width="66" height="66" border="0" class="hm_lvimgb" />
+							</a>
+							<p style="padding-top:25px;">Arena Club 北京小巨蛋</p>
+						</li>
+						<li>
+							<a href="###">
+								<img src="img/20160109_2.jpeg" width="66" height="66" border="0" class="hm_lvimgb" />
+							</a>
+							<p style="padding-top:25px;">Assaggi 尝试意大利餐厅</p>
+						</li>
+					</ul>
+				</section>
+				<!--最下方的削圆角的图片-->
+				<section class="hm_lvlibot"></section>
+				
+				<!--第三部分-->
+				<!--免费体验标题-->
+				<h2>免费体验</h2>
+				<!--左侧最下方的一整块部分-->
+				<article class="hm_lfrcon">
+					<!--全民运动的一张图片部分-->
+					<section>
+						<img src="img/fqbanner.jpeg" />
+					</section>
+					<!--电影和奖品模块-->
+					<section class="clearfix">
+						<!--今日大奖模块-->
+						<div class="hm_lfrc_l fl">
+							<!--标题-->
+							<h4 class="font14">今日大奖</h4>
+							<!--电影图片-->
+							<p class="font14">
+								<a href="#">
+									<img src="img/private.jpeg" class="hm_lfcimgb" />
+								</a>
+								<br />
+								<span class="hm_rred"><b>天台爱情 电影票</b></span><br />东都国际影城 提供</p>
+						</div>
+						<!--大奖得主模块-->
+						<div class="hm_lfrc_r fl">
+							<!--标题-->
+							<h4 class="font14">最近大奖得主</h4>
+							<!--具体得奖信息-->
+							<ul>
+								<li>
+									<span class="hm_rred">Good 白</span>
+									<br /> 
+									抢到<b>天台爱情</b>电影票 
+								</li>
+								<li>
+									<span class="hm_rred">于小怀</span>
+									<br /> 
+									抢到<b>天台爱情</b>电影票
+								</li>
+								<li>
+									<span class="hm_rred">煊贝儿</span>
+									<br /> 抢到<b>天台爱情</b>电影票
+								</li>
+								<li>
+									<span class="hm_rred">思思</span>
+									<br /> 抢到<b>天台爱情</b>电影票
+								</li>
+							</ul>
+						</div>
+					</section>
+				</article>
+			</aside>
+			<!-- left end-->
+		</section>
+		<!--脚-->
+		<footer class="comContent">
+			<a href="###">网络视听许可证0108251号 </a>
+			</br>Copyright © 2013 壹佰度 100du.com 版权所有
+		</footer>
+	</body>
+
+</html>

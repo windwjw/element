@@ -1,0 +1,88 @@
+body {
+	background-color: black;
+}
+
+div {
+	width: 200px;
+	/*height: 100px;*/
+	background-color: cyan;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	line-height: 100px;
+}
+img {
+	vertical-align: top;
+}
+.fatDiv img {
+	width: 100%;
+}
+
+.fatDiv {
+	/*声明 3D 环境*/
+	transform-style: preserve-3d;
+	/*相对定位*/
+	position: relative;
+	margin: 180px auto 0;
+	transform: rotateX(-10deg);
+	/*添加动画*/
+	animation: anmateDH;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes anmateDH {
+	from{
+		transform: rotateX(-10deg) rotateY(0deg);
+	}
+	to{
+		transform: rotateX(-10deg) rotateY(360deg);
+	}
+}
+
+
+.fatDiv div {
+	/*绝对定位*/
+	position: absolute;
+}
+
+.fatDiv div:nth-child(1) {
+	transform: rotateY(0) translateZ(500px);
+}
+.fatDiv div:nth-child(2) {
+	transform: rotateY(30deg) translateZ(500px);
+}
+.fatDiv div:nth-child(3) {
+	transform: rotateY(60deg) translateZ(500px);
+}
+.fatDiv div:nth-child(4) {
+	transform: rotateY(90deg) translateZ(500px);
+}
+.fatDiv div:nth-child(5) {
+	transform: rotateY(120deg) translateZ(500px);
+}
+.fatDiv div:nth-child(6) {
+	transform: rotateY(150deg) translateZ(500px);
+}
+.fatDiv div:nth-child(7) {
+	transform: rotateY(180deg) translateZ(500px);
+}
+.fatDiv div:nth-child(8) {
+	transform: rotateY(210deg) translateZ(500px);
+}
+.fatDiv div:nth-child(9) {
+	transform: rotateY(240deg) translateZ(500px);
+}
+.fatDiv div:nth-child(10) {
+	transform: rotateY(270deg) translateZ(500px);
+}
+.fatDiv div:nth-child(11) {
+	transform: rotateY(300deg) translateZ(500px);
+}
+.fatDiv div:nth-child(12) {
+	transform: rotateY(330deg) translateZ(500px);
+}
+
+
+

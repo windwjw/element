@@ -1,0 +1,103 @@
+/*公公样式处理*/
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 10px;
+}
+/*header部分处理*/
+.header{
+	widows: 100%;
+	height: 34px;
+	background-color: #2aad6f;
+	position: relative;
+}
+.word{
+	position: absolute;
+	left: 143px;
+	top: 0;
+}
+.word a{
+	color: #ffffff;
+	font-size: 1.4rem;
+	line-height: 30px;
+	text-decoration: none;
+	border-left: 1px solid #40b07b;
+	padding: 10px 21px 10px 19px;	
+}
+
+/*内容部分处理*/
+.content{
+	padding-top: 110px;
+	width: 320px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content p{
+	font-size: 1.5rem;
+	line-height: 15px;
+	padding-top: 23px;
+}
+
+.telphone{
+	padding-top: 49px;
+}
+.telphone input{
+	width: 320px;
+	height: 46px;
+}
+.key{
+	padding-top: 15px;
+}
+.key input{
+	width: 320px;
+	height: 46px;
+}
+.question{
+	text-align: right;
+	padding-top: 16px;
+}
+.question a{
+	color: #2f925f;
+	font-size: 1.2rem;
+}
+.log{
+	padding-top: 31px;
+}
+.log input{
+	width: 320px;
+	height: 46px;
+	background-color: #2aad6f;
+	border: 0;
+	color: white;
+}
+.register{
+	padding-top: 15px;
+}
+.register input{
+	width: 320px;
+	height: 46px;
+	background-color: #ffffff;
+	color: #363636;
+	border: 2px solid #e2e2e2;
+}
+.other{
+	padding-top: 50px;
+}
+.way{
+	padding-top: 31px;
+}
+.way a{
+	text-decoration: none;
+	padding-right: 20px;
+}
+/*页底部分*/
+.footer{
+	padding-top: 57px;
+	text-align: center;
+	font-size: 1.1rem;
+	color: #7b7b7b;
+	line-height: 11px;
+}

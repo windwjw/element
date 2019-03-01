@@ -1,0 +1,26 @@
+.wrap {
+	width: 60%;
+	overflow: hidden;
+	background-color: red;
+	min-width: 800px;
+}
+
+.box {
+	width: 48%;
+	
+}
+.w1 {
+	margin-right: 4%;
+	
+}
+.w2 {
+	margin: 0;
+}
+
+.w3 {
+	margin-right: 4%;
+	margin-top: 4%;
+}
+.w4 {
+	
+}

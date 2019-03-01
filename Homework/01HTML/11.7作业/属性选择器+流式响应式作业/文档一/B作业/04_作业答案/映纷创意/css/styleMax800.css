@@ -1,0 +1,40 @@
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.mt2 {
+	margin-top: 4%;
+}
+
+/*work*/
+.work {
+	width: 60%;
+	margin: 100px auto;
+	background-color: red;
+	/*最小阈值*/
+	min-width: 400px;
+}
+
+/*work_item*/
+.work_item {
+	width: 48%;
+	position: relative;
+	/*添加浮动是元素横向排布*/
+	/*float: left;*/
+}
+
+.lr_m {
+	/*margin: 0 3.5%;*/
+}
+
+
+
+
+
+
+
+
+
+

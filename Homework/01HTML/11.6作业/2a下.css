@@ -1,0 +1,124 @@
+/*公共样式处理*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 10px;
+}
+img {
+	vertical-align: top;
+}
+ul{
+	list-style-type: none;
+}
+/*header样式处理*/
+.header {
+	width: 100%;
+	height: 28px;
+	background-color: #009b72;
+	position: relative;
+}
+.word{
+	position: absolute;
+	right: 24px;
+	top: 0;
+}
+.word a{
+	color: white;
+	font-size: 1.2rem;
+	line-height: 20px;
+	text-decoration: none;
+	border-left: 1px solid #35ad82;
+	padding: 7px 20px 9px;
+}
+/*title部分*/
+.title{
+	width: 1157px;
+	padding-top: 31px;
+	margin: 0 auto;
+}
+.logo {
+	padding-top: 3px;
+	padding-left: 34px;
+}
+.logo img{
+	float: left;
+}
+.rightW{
+	padding-left: 587px;
+}
+.rightW a{
+	color: #909090;
+	text-decoration: none;
+	font-size: 1.4rem;
+	float: left;
+	padding-left: 34px;
+	line-height: 30px;
+}
+/*content部分*/
+.content{
+	width: 100%;
+	padding-top: 105px;
+	overflow: hidden;
+}
+.bannerBig{
+	width: 100%;
+}
+.bannerBig img{
+	width: 100%;
+}
+.bannerSma{
+	
+}
+.bannerSma img{
+	width: 32.97%;
+}
+.bannerSma img:nth-child(2){
+	padding: 0 5px;
+}
+/*serve部分*/
+.serve{
+	width: 100%;
+	height: 155px;
+	padding-top: 71px;
+}
+.leftA{
+	float: left;
+}
+.A1{
+	margin-left: 34px;
+	width: 221px;
+	/*float: left;*/
+	/*padding-left: 34px;
+	padding-right: 166px;*/
+}
+.A2{
+	width: 221px;
+	/*float: left;*/
+	/*padding-right: 137px;*/
+}
+.A3{
+	width: 221px;
+	/*float: left;
+	padding-right: 160px;*/
+}
+.A4{
+	/*width: 221px;*/
+	/*float: left;
+	padding-right: 278px;*/
+}
+.A5{
+	/*float: left;
+	padding-right: 36px;*/
+}
+.serve li{
+	color: #494949;
+	font-size: 1.1rem;
+	padding-bottom: 16px;
+}
+ul li:nth-child(1){
+	color: black;
+	font-size: 1.3rem;
+	padding-bottom: 25px;
+}

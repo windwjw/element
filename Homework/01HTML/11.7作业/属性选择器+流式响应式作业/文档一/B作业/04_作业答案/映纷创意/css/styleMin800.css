@@ -1,0 +1,30 @@
+.mt3 {
+	margin-top: 4%;
+}
+
+/*work*/
+.work {
+	width: 75%;
+	margin: 100px auto;
+	background-color: greenyellow;
+}
+/*work_item*/
+.work_item {
+	width: 31%;
+	position: relative;
+	/*添加浮动是元素横向排布*/
+	float: left;
+}
+.lr_m {
+	margin: 0 3.5%;
+}
+
+
+
+
+
+
+
+
+
+

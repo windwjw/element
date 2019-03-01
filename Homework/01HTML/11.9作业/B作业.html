@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>B作业</title>
+		<style type="text/css">
+			body {
+				background: gold;
+				
+				perspective: 1000px;
+				
+				perspective-origin: center 50px;
+			}
+			
+			.father {
+				margin: 200px auto 0;
+				position: relative;
+				
+				/*3D开关*/
+				transform-style: preserve-3d;
+				/*设置动画名字, 转一圈需要的时间,变化速率 */
+				animation: OnePiece 3s linear;
+				/*设置转的次数*/
+				animation-iteration-count: infinite;
+				/*设置倒转*/
+				/*animation-direction: alternate;*/
+			}
+			.father div {
+				position: absolute;
+				left: 0;
+				right: 0;
+			}
+			.father img {
+				width: 100%;
+			}
+			div {
+				width: 150px;
+			}
+			
+			@keyframes OnePiece{
+				0% {
+				transform: rotateY(0);	
+				}
+				50% {
+				transform: rotateY(180deg);		
+				}
+				100% {
+				transform: rotateY(360deg);		
+				}
+			}
+			
+			.father div:nth-child(1) {
+				transform: translateZ(300px);
+			}
+			.father div:nth-child(2) {
+				transform: rotateY(40deg) translateZ(300px);
+			}
+			.father div:nth-child(3) {
+				transform: rotateY(80deg) translateZ(300px);
+			}
+			.father div:nth-child(4) {
+				transform: rotateY(120deg) translateZ(300px);
+			}
+			.father div:nth-child(5) {
+				transform: rotateY(160deg) translateZ(300px);
+			}
+			.father div:nth-child(6) {
+				transform: rotateY(200deg) translateZ(300px);
+			}
+			.father div:nth-child(7) {
+				transform: rotateY(240deg) translateZ(300px);
+			}
+			.father div:nth-child(8) {
+				transform: rotateY(280deg) translateZ(300px);
+			}
+			.father div:nth-child(9) {
+				transform: rotateY(320deg) translateZ(300px);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="audio" >
+			<audio src="music1.mp3" controls autoplay loop  preload="metadata"></audio>
+		</div>
+		<div class="father">
+			<div><img src="CSS动画作业/B作业/03_作业视觉稿/img/1.jpg"/></div>
+			<div><img src="CSS动画作业/B作业/03_作业视觉稿/img/2.jpg"/></div>
+			<div><img src="CSS动画作业/B作业/03_作业视觉稿/img/3.jpg"/></div>
+			<div><img src="CSS动画作业/B作业/03_作业视觉稿/img/4.jpg"/></div>
+			<div><img src="CSS动画作业/B作业/03_作业视觉稿/img/5.jpg"/></div>
+			<div><img src="CSS动画作业/B作业/03_作业视觉稿/img/6.jpg"/></div>
+			<div><img src="CSS动画作业/B作业/03_作业视觉稿/img/7.jpg"/></div>
+			<div><img src="CSS动画作业/B作业/03_作业视觉稿/img/8.jpg"/></div>
+			<div><img src="CSS动画作业/B作业/03_作业视觉稿/img/9.jpg"/></div>
+		</div>
+	</body>
+</html>

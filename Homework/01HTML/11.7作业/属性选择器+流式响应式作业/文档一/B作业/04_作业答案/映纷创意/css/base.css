@@ -1,0 +1,76 @@
+/*
+ * 样式
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-family: 微软雅黑;
+    font-size: 100%;
+    color: rgb(173, 173, 173);
+    background-color: #f2f2f2;
+}
+img {
+	vertical-align: top;
+}
+
+
+
+.work_item img {
+	width: 100%;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+/*标题*/
+.work_item .item_title {
+	background-color: white;
+	text-align: center;
+	font-size: 0.98rem;
+	color: #666666;
+	line-height: 35px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+/*要隐藏部分*/
+.work_item .item_hidden {
+	background-color: black;
+	opacity: 0.5;
+	color: white;
+	text-align: center;
+	/*定位*/
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 35px;
+	/*削圆角*/
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	padding-top: 16%;
+	/*隐藏*/
+	display: none;
+}
+/*隐藏元素的标题*/
+.item_hidden .hidden_tit {
+	font-size: 30px;
+}
+/*隐藏元素的内容*/
+.item_hidden .hidden_con {
+	/*font-size: 14px;*/
+	font-size: 0.9em;
+}
+/*父元素 hover 改变子元素的属性*/
+.work_item:hover .item_hidden {
+	display: block;
+}
+.work_item:hover .item_title {
+	color: red;
+}
+
+/*清浮动*/
+.work:after {
+	content: "";
+	display: block;
+	clear: both;
+}

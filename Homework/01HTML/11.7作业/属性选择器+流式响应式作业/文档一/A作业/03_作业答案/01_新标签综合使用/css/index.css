@@ -1,0 +1,173 @@
+/*banner 图*/
+.banner{
+	margin-top:15px;
+}
+/*正文整体处理*/
+.hmain{
+	margin-top:10px;
+	overflow:hidden;
+}
+
+/*右侧部分*/
+.hm_right{
+	width:573px;
+}
+/*右侧标题*/
+.hm_right h2{
+	line-height:33px;
+	padding-left:12px;
+	color:#ffffff;
+	background-color:#363636;
+	font-size:14px;
+	font-family:'宋体';
+}
+/*标题下方的图片*/
+.hm_right .hm_rban{
+	margin:1px 0px;
+}
+/*四种小吃所在的 ul 的设置*/
+.hm_right .hm_rlist{
+	border:3px solid #d4d4d4;
+	*padding-bottom:20px;
+	background:url(../img/hm_rlbg.jpeg) no-repeat center;
+}
+/*小吃的 li 的设置*/
+.hm_right .hm_rlist ul li{
+	width:238px;
+	height:70px;
+	float:left;
+	margin:20px;
+}
+/*小吃的说明性文字 p 标签的设置*/
+.hm_right .hm_rlist ul li p{
+	text-indent:2em;
+	line-height:18px;
+}
+/*每种小吃的图片的边框等*/
+.hm_imgb {
+	border:2px solid #d4d4d4;
+	float:left;
+	margin-right:10px;
+}
+/*暗红色字体*/
+.hm_rred{
+	color:#c00000;
+}
+/*右侧最下方的 商城 信息等*/
+.hm_right .hm_rtuli{
+	margin-top:10px;
+}
+
+
+/*左侧部分*/
+.hm_left{
+	width:327px;
+}
+/*左侧第二块，查看更多部分的设置*/
+.hm_left .hm_lvcon{
+	border-left:1px solid #d3d3d3;
+	border-right:1px solid #d3d3d3;
+	background:#fdfdfd url(../img/hm_lvbg.jpeg) repeat-x top;
+	margin-top:8px;
+	padding-left:15px;
+}
+/*查看更多文本的设置*/
+.hm_left .hm_lvcon .hm_lvcmore{
+	width:295px;
+	background:url(../img/hm_lmxian.jpeg) no-repeat bottom;
+	height:28px;
+	padding-top:10px;
+}
+/*查看更多文本所在的 a 标签的设置*/
+.hm_left .hm_lvcon .hm_lvcmore a{
+	color:#fff;
+	background-color:#363636;
+	text-decoration:none;
+	padding:2px 4px;
+}
+/*四个酒店列表 ul 的设置*/
+.hm_left .hm_lvcon ul{
+	padding:5px 0px 10px 0px;
+}
+/*每个酒店所在的 li 的设置*/
+.hm_left .hm_lvcon ul li{
+	width:144px;
+	background-color:#4b4b4b;
+	float:left;
+	margin-right:7px;
+	margin-top:5px;
+}
+/*酒店的名字所在的 p 标签的设置*/
+.hm_left .hm_lvcon ul li p{
+	line-height:17px;
+	color:#fff;
+	font-size:11px;
+}
+/*每个酒店 img 的处理, 文本环绕方式处理*/
+.hm_lvimgb{
+	float:left;
+	margin-right:4px;
+}
+/*该部分最下方的圆角的图片的设置*/
+.hm_left .hm_lvlibot{
+	height:6px;
+	background-image:url(../img/hm_lvlibot.jpeg);
+	font-size:0px;
+	margin-bottom:12px;
+}
+
+
+/*第三部分*/
+/*免费体验，标题的设置*/
+.hm_left h2{
+	line-height:33px;
+	padding-left:12px;
+	color:#ffffff;
+	background-color:#363636;
+	font-size:14px;
+	font-family:'宋体';
+}
+/*左侧左下方最后一整块部分的处理*/
+.hm_left .hm_lfrcon{
+	border:2px solid #d2d2d2;
+}
+/*今日大奖模块*/
+.hm_left .hm_lfrcon .hm_lfrc_l{
+	width:130px;
+	margin:20px 25px 0px 10px;
+}
+/*今日大奖标题*/
+.hm_left .hm_lfrcon .hm_lfrc_l h4{
+	color:#4c4c4c;
+	border-left:4px solid #e90909;
+	padding-left:5px;
+}
+/*今日大奖的内容*/
+.hm_left .hm_lfrcon .hm_lfrc_l p{
+	line-height:20px;
+	color:#000;
+}
+/*大奖图片的边框设置等*/
+.hm_lfcimgb{
+	border:1px solid #e4e4e4;
+	margin:5px 0px;
+}
+
+/*大奖得主模块*/
+.hm_left .hm_lfrcon .hm_lfrc_r{
+	margin-top:20px;
+}
+/*大奖得主标题*/
+.hm_left .hm_lfrcon .hm_lfrc_r h4{
+	color:#000;
+	border-left:4px solid #e90909;
+	padding-left:5px;
+}
+/*大奖得主信息列表 ul 的设置*/
+.hm_left .hm_lfrcon .hm_lfrc_r ul{
+	padding:10px 0px;
+}
+/*大奖得主具体信息 li 的设置*/
+.hm_left .hm_lfrcon .hm_lfrc_r ul li{
+	padding-bottom:3px;
+}

@@ -1,0 +1,63 @@
+body {
+	padding: 100px;
+}
+
+ul:before,
+ul:after {
+	display: table;
+	content: "";
+}
+
+ul:after {
+	clear: both;
+	overflow: hidden;
+}
+
+ul {
+	zoom: 1;
+	list-style: none outside none;
+	margin-bottom: 30px;
+}
+
+ul li {
+	float: left: margin: 10px;
+}
+
+ul a {
+	display: block;
+	float: left;
+	text-decoration: none;
+}
+
+ul img {
+	border: 0;
+}
+
+h1 {
+	margin: 2em 0;
+}
+
+#socialicons img,
+#socialicons2 img {
+	-moz-transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	transition: all 0.8s ease-in-out;
+}
+
+#socialicons img:hover {
+	-moz-transform: rotate(360deg) scale(1.5);
+	-webkit-transform: rotate(360deg) scale(1.5);
+	-o-transform: rotate(360deg) scale(1.5);
+	-ms-transform: rotate(360deg) scale(1.5);
+	transform: rotate(360deg) scale(1.5);
+}
+
+#socialicons2 img:hover {
+	-moz-transform: rotate(-360deg) scale(.7);
+	-webkit-transform: rotate(-360deg) scale(.7);
+	-o-transform: rotate(-360deg) scale(.7);
+	-ms-transform: rotate(-360deg) scale(.7);
+	transform: rotate(-360deg) scale(.7);
+}

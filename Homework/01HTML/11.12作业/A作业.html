@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>A作业</title>
+		<link rel="stylesheet" type="text/css" href="Animate.css"/>
+		<link rel="stylesheet" type="text/css" href="max640.css" media="screen and (max-width: 600px)"/>
+		<style type="text/css">
+			ul {
+				list-style-type: none;
+			}
+			html {
+				width: 100%;
+				height: 100%;
+			}
+			body {
+				width: 100%;
+				height: 100%;
+				background: url(A作业/03_作业视觉稿/弹性布局&响应式综合作业/bg.png) /*no-repeat*/;
+				background-size: 100%;
+				
+				margin: 0 auto;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				
+				
+			}
+			.wrap {
+				width: 75%;
+				display: flex;
+				flex-direction: row;
+				/*flex-wrap: nowrap;*/
+				justify-content: space-between;	
+				/*align-items: flex-start;*/
+				/*align-content: space-between;*/
+			}
+			
+			.wrap_left {
+				width: 500px;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-between;	
+				align-items: flex-start;
+				align-content: space-between;
+			}
+			.wrap_right {
+				width: 500px;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-between;	
+				align-items: flex-start;
+				align-content: space-between;
+			}
+			
+			.wrap_right li img:nth-child(2n+1) {
+				width: 32%;
+				height: 127px;
+			}
+			.wrap_right li img:nth-child(2n) {
+				width: 54%;
+				height: 127px;
+
+			}
+			.wrap_left li img:nth-child(2n+1) {
+				width: 54%;
+				height: 127px;
+			}
+			.wrap_left li img:nth-child(2n) {
+				width: 32%;
+				height: 127px;
+			}
+			.wrap_left li img:nth-child(1) {
+				animation: flash 1s 2;
+			}
+			.wrap_left li img:nth-child(2) {
+				animation: bounce 1s 2;
+			}
+			.wrap_left li img:nth-child(3) {
+				animation: pulse 1s 2;
+			}
+			.wrap_left li img:nth-child(4) {
+				animation: rubberBand 1s 2;
+			}
+			.wrap_left li img:nth-child(5) {
+				animation: shake 1s 2;
+			}
+			.wrap_left li img:nth-child(6) {
+				animation: swing 1s 2;
+			}
+			
+			.wrap_right li img:nth-child(1) {
+				animation: tada 1s 2;
+			}
+			.wrap_right li img:nth-child(2) {
+				animation: wobble 1s 2;
+			}
+			.wrap_right li img:nth-child(3) {
+				animation: jello 1s 2;
+			}
+			.wrap_right li img:nth-child(4) {
+				animation: fadeout 1s 2;
+			}
+			.wrap_right li img:nth-child(5) {
+				animation: flip 1s 2;
+			}
+			.wrap_right li img:nth-child(6) {
+				animation: hinge 1s 2;
+			}
+			
+		</style>
+	</head>
+	<body>
+			<div class="wrap">
+				<ul class="wrap_left animated tada">
+					<li>
+					<img src="A作业/03_作业视觉稿/弹性布局&响应式综合作业/visit.png"/>
+					<img src="A作业/03_作业视觉稿/弹性布局&响应式综合作业/contract.png"/>
+					<img src="A作业/03_作业视觉稿/弹性布局&响应式综合作业/admin.png"/>
+					<img src="A作业/03_作业视觉稿/弹性布局&响应式综合作业/guide.png"/>
+					<img src="A作业/03_作业视觉稿/弹性布局&响应式综合作业/expo.png"/>
+					<img src="A作业/03_作业视觉稿/弹性布局&响应式综合作业/axam.png"/>
+					</li>
+				</ul>
+				<ul class="wrap_right animation">
+					<li>
+					<img src="A作业/03_作业视觉稿/弹性布局&响应式综合作业/sjzx.png"/>
+					<img src="A作业/03_作业视觉稿/弹性布局&响应式综合作业/sina.png"/>
+					<img src="A作业/03_作业视觉稿/弹性布局&响应式综合作业/hall.png"/>
+					<img src="A作业/03_作业视觉稿/弹性布局&响应式综合作业/tencent.png"/>
+					<img src="A作业/03_作业视觉稿/弹性布局&响应式综合作业/traval.png"/>
+					<img src="A作业/03_作业视觉稿/弹性布局&响应式综合作业/weico.png"/>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

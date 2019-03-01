@@ -1,0 +1,45 @@
+
+.wrap {
+	width: 800px;
+	margin: 50px auto;
+}
+/*当天*/
+.today_table, .tomorrow_table {
+	border-collapse: collapse;
+	text-align: center;
+	border-color: #9cb0d9;
+	line-height: 28px;
+}
+/*第二天*/
+.tomorrow_table {
+	margin-top: 4px;				
+}
+
+
+/*颜色处理*/
+.title_tr {
+	background: #dce3f9;
+}
+.day_td {
+	background: #f4f7fc;
+}
+.maxT {
+	color: #de4415;
+}
+.minT {
+	color: #080064;
+}
+.weekned {
+	color: #c6000e;
+}
+
+/*白天夜晚图片*/
+.table_today_day {
+	background: url(../img/day.png) no-repeat center;
+}
+.table_today_night {
+	background: url(../img/night.png) no-repeat center;
+}
+
+
+

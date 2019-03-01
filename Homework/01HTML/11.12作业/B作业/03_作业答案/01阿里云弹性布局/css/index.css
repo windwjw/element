@@ -1,0 +1,35 @@
+
+/*整体设置*/
+.product {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*产品组 ul*/
+.product .product_tabs {
+	/*设置为弹性容器*/
+	display: flex;
+	/*主轴对齐方式*/
+	justify-content: space-between;
+}
+/*单个产品 li*/
+.product .product_tab {
+	width: 234px;
+	margin: 15px 39px;
+	text-align: center;
+	font-size: 14px;
+}
+/*单个产品 img 图标*/
+.product_tab .product_tab_icon {
+	width: 80px;
+}
+
+/*hover 效果*/
+.product_tab-hover:hover a {
+	color: #00c1de;
+}
+
+
+
+
+

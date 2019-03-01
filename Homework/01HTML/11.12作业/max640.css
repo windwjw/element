@@ -1,0 +1,6 @@
+/*选择器优先级问题 切记切记切记!!!*/
+
+body .wrap {
+	flex-direction: column;
+}
+

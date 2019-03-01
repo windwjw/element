@@ -1,0 +1,38 @@
+.menu {
+	width: 965px;
+	height: 126px;
+	background: url(../images/bg.jpg) no-repeat right bottom;
+	margin: 0 auto;
+}
+
+ul,
+li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+ul {
+	float: right;
+	margin-right: 0px;
+	margin-top: 55px;
+	width: 790px;
+	font-size: 12px;
+}
+
+li {
+	float: left;
+	width: 36px;
+	padding: 0 0 4px 0;
+	text-align: center;
+	background: url(../images/line.gif) no-repeat left center;
+}
+
+li:nth-child(3n+1) {
+	font-weight: bold;
+	background: none;
+}
+
+li:nth-child(20) {
+	color: red;
+}
